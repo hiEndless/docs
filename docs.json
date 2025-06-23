@@ -1,7 +1,7 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "$schema": "https://qq.com",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "个人文档",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -82,13 +82,13 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
+        "label": "支持",
         "href": "mailto:hi@mintlify.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
+      "label": "返回主页",
       "href": "https://dashboard.mintlify.com"
     }
   },
