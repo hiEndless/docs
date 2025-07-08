@@ -11,14 +11,12 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "导航",
+        "tab": "首页",
         "groups": [
           {
-            "group": "产品",
+            "group": "导航",
             "pages": [
-              "index",
-              "quickstart",
-              "development"
+              "index"
             ]
           },
           {
