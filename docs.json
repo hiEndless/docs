@@ -64,6 +64,14 @@
               "copyapes/vip/2",
               "copyapes/vip/3"
             ]
+          },
+          {
+            "group": "其他",
+            "pages": [
+              "copyapes/other/1",
+              "copyapes/other/2",
+              "copyapes/other/3"
+            ]
           }
         ]
       }
