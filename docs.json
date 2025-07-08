@@ -29,6 +29,12 @@
         "tab": "跟单猿使用教程",
         "groups": [
           {
+            "group": "介绍",
+            "pages": [
+              "copyapes/introduction"
+            ]
+          },
+          {
             "group": "申请交易所API",
             "pages": [
               "copyapes/exchange/okx",
