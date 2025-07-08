@@ -44,7 +44,19 @@
             ]
           },
           {
-            "group": "跟单教程",
+            "group": "跟单欧意",
+            "pages": [
+              "copyapes/copytrade/exchange"
+            ]
+          },
+          {
+            "group": "跟单币安",
+            "pages": [
+              "copyapes/copytrade/exchange"
+            ]
+          },
+          {
+            "group": "VIP跟单功能",
             "pages": [
               "copyapes/copytrade/exchange"
             ]
