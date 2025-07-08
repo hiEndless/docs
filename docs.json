@@ -16,8 +16,8 @@
           {
             "group": "产品",
             "pages": [
-              "index/markdown",
-              "quickstart/code",
+              "index",
+              "quickstart",
               "development"
             ]
           },
