@@ -23,13 +23,7 @@
           },
           {
             "group": "资源",
-            "pages": [
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
+            "pages": []
           }
         ]
       },
@@ -46,10 +40,7 @@
           {
             "group": "跟单教程",
             "pages": [
-              "copyapes/copytrade/exchange",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "copyapes/copytrade/exchange"
             ]
           }
         ]
