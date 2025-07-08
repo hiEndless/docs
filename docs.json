@@ -46,19 +46,23 @@
           {
             "group": "跟单欧意",
             "pages": [
-              "copyapes/copytrade/exchange"
+              "copyapes/okx/1",
+              "copyapes/okx/2"
             ]
           },
           {
             "group": "跟单币安",
             "pages": [
-              "copyapes/copytrade/exchange"
+              "copyapes/binance/1",
+              "copyapes/binance/2"
             ]
           },
           {
             "group": "VIP跟单功能",
             "pages": [
-              "copyapes/copytrade/exchange"
+              "copyapes/vip/1",
+              "copyapes/vip/2",
+              "copyapes/vip/3"
             ]
           }
         ]
