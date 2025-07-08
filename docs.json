@@ -1,5 +1,5 @@
 {
-  "$schema": "https://qq.com",
+  "$schema": "https://docs.lichaoyuan.com",
   "theme": "mint",
   "name": "个人文档",
   "colors": {
@@ -7,7 +7,7 @@
     "light": "#07C983",
     "dark": "#15803D"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/logo/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -58,38 +58,33 @@
     "global": {
       "anchors": [
         {
-          "anchor": "文档",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "社区",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "个人主页",
+          "href": "https://lichaoyuan.com",
+          "icon": "website"
         },
         {
           "anchor": "博客",
-          "href": "https://mintlify.com/blog",
+          "href": "https://lichaoyuan.com/blog",
           "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/favicon.png",
+    "dark": "/logo/favicon.png"
   },
   "navbar": {
     "links": [
       {
-        "label": "支持",
-        "href": "mailto:hi@mintlify.com"
+        "label": "邮件联系",
+        "href": "mailto:me@lichaoyuan.com"
       }
     ],
     "primary": {
       "type": "button",
       "label": "返回主页",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://lichaoyuan.com"
     }
   },
   "footer": {
