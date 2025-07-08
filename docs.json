@@ -31,7 +31,8 @@
           {
             "group": "介绍",
             "pages": [
-              "copyapes/introduction"
+              "copyapes/introduction",
+              "copyapes/step"
             ]
           },
           {
