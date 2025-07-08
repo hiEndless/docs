@@ -38,6 +38,7 @@
           {
             "group": "申请交易所API",
             "pages": [
+              "copyapes/exchange/proxy",
               "copyapes/exchange/okx",
               "copyapes/exchange/binance",
               "copyapes/exchange/add"
