@@ -14,15 +14,15 @@
         "tab": "导航",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "产品",
             "pages": [
-              "index",
-              "quickstart",
+              "index/markdown",
+              "quickstart/code",
               "development"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "资源",
             "pages": [
               "essentials/markdown",
               "essentials/code",
@@ -35,16 +35,16 @@
         ]
       },
       {
-        "tab": "API测试",
+        "tab": "跟单猿使用教程",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "申请交易所API",
             "pages": [
               "api-reference/introduction"
             ]
           },
           {
-            "group": "Endpoint Examples",
+            "group": "跟单教程",
             "pages": [
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
