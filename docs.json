@@ -24,7 +24,6 @@
           {
             "group": "资源",
             "pages": [
-              "essentials/markdown",
               "essentials/code",
               "essentials/images",
               "essentials/settings",
@@ -40,13 +39,14 @@
           {
             "group": "申请交易所API",
             "pages": [
-              "api-reference/introduction"
+              "copyapes/exchange/okx",
+              "copyapes/exchange/binance",
             ]
           },
           {
             "group": "跟单教程",
             "pages": [
-              "api-reference/endpoint/get",
+              "copyapes/copytrade/exchange",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
               "api-reference/endpoint/webhook"
