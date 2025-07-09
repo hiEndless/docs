@@ -32,7 +32,8 @@
             "group": "介绍",
             "pages": [
               "copyapes/introduction",
-              "copyapes/step"
+              "copyapes/step",
+              "copyapes/task-info"
             ]
           },
           {
@@ -61,17 +62,17 @@
           {
             "group": "VIP跟单功能",
             "pages": [
-              "copyapes/vip/1",
-              "copyapes/vip/2",
-              "copyapes/vip/3"
+              "copyapes/vip/hot",
+              "copyapes/vip/cookie",
+              "copyapes/vip/ws"
             ]
           },
           {
             "group": "其他",
             "pages": [
-              "copyapes/other/1",
-              "copyapes/other/2",
-              "copyapes/other/3"
+              "copyapes/other/grab",
+              "copyapes/other/notice",
+              "copyapes/other/partner"
             ]
           }
         ]
