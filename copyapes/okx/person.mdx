@@ -1,32 +1,21 @@
 ---
-title: '跟单个人概况'
+title: "跟单个人概况"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Steps>
+  <Step title="选择交易员">
+    首先确保你选择的是交易员的“概况”，地址栏中的**6D9B4445DE8C832B**为该交易员ID
 
-## Welcome
+    ![Okx8 Pn](/images/copyapes/okx8.png)
+  </Step>
+  <Step title="判断该交易员是否隐藏仓位">
+    ![Okx9 Pn](/images/copyapes/okx9.png)
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+    如果可以看到当前仓位，说明交易员没有隐藏，可以进行跟单，否则无法跟单。
+  </Step>
+  <Step title="创建跟单任务">
+    点击创建跟单，选择OKX交易所、个人交易，填写交易员ID
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+    ![Okx7 Pn](/images/copyapes/okx7.png)
+  </Step>
+</Steps>
