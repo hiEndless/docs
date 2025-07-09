@@ -71,6 +71,7 @@
           {
             "group": "其他",
             "pages": [
+              "copyapes/other/add-cookie",
               "copyapes/other/grab",
               "copyapes/other/notice",
               "copyapes/other/partner"
