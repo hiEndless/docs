@@ -1,32 +1,25 @@
 ---
-title: 'API跟单'
+title: "API跟单"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Steps>
+  <Step title="添加带单API">
+    [添加只读API](/copyapes/exchange/add)，给API设置好名字
 
-## Welcome
+    <Warning>
+      不要给这个API添加IP白名单，否则无法进行跟单
+    </Warning>
+  </Step>
+  <Step title="搜索API">
+    ![Ws Pn](/images/copyapes/ws.png)
+  </Step>
+  <Step title="创建跟单任务">
+    <Note>
+      确保在带单API是空仓的时候开始跟单\
+      否则交易员进行加仓或者减仓时，会给你开出他剩余的仓位量（后期会对此情况进行优化处理）
+    </Note>
+    填写跟单任务信息，创建跟单。
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+    此跟单方式延迟最低，稳定性最高。
+  </Step>
+</Steps>
