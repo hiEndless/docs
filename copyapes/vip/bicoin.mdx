@@ -1,32 +1,41 @@
 ---
-title: '币coin跟单'
+title: "币coin跟单"
 ---
 
 <Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
+  币coin的接口没有交易所稳定，并且每个交易员、每个账号的延迟都有差异。有可能0延迟，也有可能有几秒到几分钟不等的延迟。
 </Note>
 
-## Welcome
+<Steps>
+  <Step title="选择币coin跟单">
+    填写自己的币coin账号密码。
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+    如果想跟的人在币coin上开启了付费订阅，你需要先获取到对方的订阅码才可跟单。
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
+    <img
+      src="/images/copyapes/bc.png"
+      alt="Bc Pn"
+      title="Bc Pn"
+      style={{ width:"81%" }}
+    />
+  </Step>
+  <Step title="搜索目标交易员">
+    <img
+      src="/images/copyapes/bc1.png"
+      alt="Bc1 Pn"
+      title="Bc1 Pn"
+      style={{ width:"72%" }}
+    />
 
-## Authentication
+    选择你要跟单的交易员账号进行跟单
+  </Step>
+  <Step title="选择跟单模式">
+    提供跟单操作记录和合约仓位两种模式
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+    <Note>
+      操作记录的跟单速度优于合约仓位\
+      合约仓位的准确度优于操作记录
+    </Note>
+    由于现货交易也会出现在操作记录中，会对跟单造成一定程度干扰，可以联系客服设置交易员白名单，主动过滤改交易员的现货操作。
+  </Step>
+</Steps>
