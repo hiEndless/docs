@@ -1,32 +1,32 @@
 ---
-title: '跟单抢位'
+title: "跟单抢位"
 ---
 
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
+<Steps>
+  <Step title="添加/更新Cookie">
+    [添加Cookie](/copyapes/other/add-cookie)
 
-## Welcome
+    必须确保你的cookie是在有效状态
+  </Step>
+  <Step title="选择你要抢位的交易员">
+    <img
+      src="/images/copyapes/grab.png"
+      alt="Grab Pn"
+      title="Grab Pn"
+      style={{ width:"63%" }}
+    />
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
-
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
-
-## Authentication
-
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
-
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+    选择交易员所在交易所，填写对应的ID
+  </Step>
+  <Step title="按照交易所的要求填写跟单信息">
+    <Note>
+      根据交易所的要求，只能用主账号进行跟单，无法使用子账号进行跟单！
+    </Note>
+    <img
+      src="/images/copyapes/grab1.png"
+      alt="Grab1 Pn"
+      title="Grab1 Pn"
+      style={{ width:"68%" }}
+    />
+  </Step>
+</Steps>
