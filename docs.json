@@ -48,15 +48,15 @@
           {
             "group": "跟单欧意",
             "pages": [
-              "copyapes/okx/1",
-              "copyapes/okx/2"
+              "copyapes/okx/open",
+              "copyapes/okx/person"
             ]
           },
           {
             "group": "跟单币安",
             "pages": [
-              "copyapes/binance/1",
-              "copyapes/binance/2"
+              "copyapes/binance/open",
+              "copyapes/binance/close"
             ]
           },
           {
