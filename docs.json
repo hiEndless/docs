@@ -62,6 +62,7 @@
           {
             "group": "VIP跟单功能",
             "pages": [
+              "copyapes/vip/bicoin",
               "copyapes/vip/hot",
               "copyapes/vip/cookie",
               "copyapes/vip/ws"
