@@ -43,6 +43,7 @@
               "copyapes/exchange/proxy",
               "copyapes/exchange/okx",
               "copyapes/exchange/binance",
+              "copyapes/exchange/gate",
               "copyapes/exchange/add"
             ]
           },
